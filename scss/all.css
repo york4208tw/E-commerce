@@ -440,14 +440,14 @@ body ::-moz-placeholder { /* Firefox 19+ */
   height: 15px;
   transform: scale(1.5);
   background-color: #b6ad9d;
-  mask-image: url(/E-commerce/pic/ic-facebook-all.svg);
-  -webkit-mask-image: url(/E-commerce/pic/ic-facebook-all.svg);
+  mask-image: url(../pic/ic-facebook-all.svg);
+  -webkit-mask-image: url(../pic/ic-facebook-all.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
 }
 
 .fb-btn a:hover {
-  background-image: url(/E-commerce/pic/ic-facebook-all.svg);
+  background-image: url(../pic/ic-facebook-all.svg);
 }
 
 .google-btn a {
@@ -458,14 +458,14 @@ body ::-moz-placeholder { /* Firefox 19+ */
   height: 20px;
   transform: scale(1.5);
   background-color: #b6ad9d;
-  mask-image: url(/E-commerce/pic/ic-google-all.svg);
-  -webkit-mask-image: url(/E-commerce/pic/ic-google-all.svg);
+  mask-image: url(../pic/ic-google-all.svg);
+  -webkit-mask-image: url(../pic/ic-google-all.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
 }
 
 .google-btn a:hover {
-  background-image: url(/E-commerce/pic/ic-google-all.svg);
+  background-image: url(../pic/ic-google-all.svg);
 }
 
 .yahoo-btn a {
@@ -476,14 +476,14 @@ body ::-moz-placeholder { /* Firefox 19+ */
   height: 15px;
   transform: scale(1.5);
   background-color: #b6ad9d;
-  mask-image: url(/E-commerce/pic/ic-yahoo-all.svg);
-  -webkit-mask-image: url(/E-commerce/pic/ic-yahoo-all.svg);
+  mask-image: url(../pic/ic-yahoo-all.svg);
+  -webkit-mask-image: url(../pic/ic-yahoo-all.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
 }
 
 .yahoo-btn a:hover {
-  background-image: url(/E-commerce/pic/ic-yahoo-all.svg);
+  background-image: url(../pic/ic-yahoo-all.svg);
 }
 
 .login-block {
