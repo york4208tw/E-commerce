@@ -294,7 +294,7 @@ body ::-moz-placeholder { /* Firefox 19+ */
   right: 22px;
 }
 .products .fave-select {
-  background-image: url("/pic/isfavorite_border.png");
+  background-image: url("../pic/isfavorite_border.png");
   background-repeat: no-repeat;
 }
 .products .product-info {
