@@ -1,0 +1,252 @@
+.fb-btn a{
+    display: inline-block;
+    margin: 3.5px 0;
+    text-indent: -9999px;
+    width: 73px;
+    height: 15px;
+    transform: scale(1.5);
+    background-color: $grey;
+    mask-image: url(/pic/ic-facebook-all.svg);
+    -webkit-mask-image: url(/pic/ic-facebook-all.svg);
+    mask-repeat: no-repeat;
+}
+.fb-btn a:hover{
+    background-image: url(/pic/ic-facebook-all.svg);
+}
+.google-btn a{
+    display: inline-block;
+    margin: 1px 0;
+    text-indent: -9999px;
+    width: 61px;
+    height: 20px;
+    transform: scale(1.5);
+    background-color: $grey;
+    mask-image: url(/pic/ic-google-all.svg);
+    -webkit-mask-image: url(/pic/ic-google-all.svg);
+    mask-repeat: no-repeat;
+}
+.google-btn a:hover{
+    background-image: url(/pic/ic-google-all.svg);
+}
+.yahoo-btn a{
+    display: inline-block;
+    margin: 3.5px 0;
+    text-indent: -9999px;
+    width: 65px;
+    height: 15px;
+    transform: scale(1.5);
+    background-color: $grey;
+    mask-image: url(/pic/ic-yahoo-all.svg);
+    -webkit-mask-image: url(/pic/ic-yahoo-all.svg);
+    mask-repeat: no-repeat;
+}
+.yahoo-btn a:hover{
+    background-image: url(/pic/ic-yahoo-all.svg);
+}
+.login-block{
+    display: flex;
+    margin: 30px 122px 60px;
+    flex-wrap: wrap;
+    // background-color: $lightGreen;
+    .login{
+        width: 50%;
+        background-color: $primaryGreen;
+        .login-title{
+            margin: 40px 0;
+            text-align: center;
+            color: $lightGreen;
+            font-size: $font-xxl;
+            font-weight: bold;
+        }
+        .m-link-btnbar{
+            display: none;
+            justify-content: space-between;
+            padding: 30px 30px;
+            margin-bottom: 30px;
+            align-items: center;
+            background-color: $lightGreen;
+        }
+        .fb-btn, .google-btn, .yahoo-btn{
+            width: 33%;
+            height: 56px;
+            background-color: $white;
+            text-align: center;
+            a{
+                margin: 19.5px 0;
+                transform: scale(1.2);
+            }
+        }
+        .login-inputbar{
+            padding: 0 30px;
+        }
+        .idbar, .passwordbar{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 56px;
+            margin-bottom: 16px;
+            background-color: $lightGreen;
+        }
+        .login-icon {
+            padding: 16px 20px;
+        }
+        .id-input, .password-input{
+            width: 100%;
+            height: 24px;
+            margin-right: 15px;
+            border: 0;
+            color: $primaryGreen;
+            font-size: $font-m;
+            background-color: $lightGreen;
+            outline: none;
+        }
+        .rememberme{
+            color: $lightGreen;
+            label{
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-bottom: 25px;
+            }
+            input{
+                width: 10px;
+                height: 10px;
+                margin: 0 16px 0 0;
+                cursor: pointer;
+            }
+            input:checked+span+.showbox {
+                background: $secondary;
+            }
+            .showbox {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 20px;
+                height: 20px;
+                border-radius: 2px;
+                border: 1px solid #3F5D45;
+                background: white;
+            }
+              
+            .showbox:before {
+                content: '';
+                position: absolute;
+                top: 0px;
+                left: 5px;
+                width: 8px;
+                height: 15px;
+                border: solid white;
+                border-width: 0 3px 4px 0;
+                transform: rotate(45deg);
+            }
+        }
+        .login-btn{
+            width: 100%;
+            text-align: center;
+            padding: 16px 0;
+            background-color: $secondary;
+            font-size: $font-l;
+            font-weight: bold;
+        }
+        .login-btn a {
+            display: block;
+            color: $lightGreen;
+            text-decoration: none;
+        }
+    }
+    .linkid{
+        width: 50%;
+        margin: 15px 0;
+        background-color: $lightGreen;
+        .linkid-title{
+            margin: 40px 0 36px 0;
+            text-align: center;
+            color: $grey;
+            font-size: $font-l;
+        }
+        .linkid-btnbar{
+            padding: 0 30px;
+        }
+        .fb-btn,.google-btn,.yahoo-btn{
+            width: 100%;
+            padding: 16px 0;
+            margin-bottom: 16px;
+            background-color: $white;
+            text-align: center;
+        }
+        img{
+            height: 24px;
+            margin: 0 auto;
+        }
+        // .fb-btn a{
+        //     display: inline-block;
+        //     margin: 3.5px 0;
+        //     text-indent: -9999px;
+        //     width: 73px;
+        //     height: 15px;
+        //     transform: scale(1.5);
+        //     background-color: $grey;
+        //     mask-image: url(/pic/W02/ic-facebook-all.svg);
+        //     -webkit-mask-image: url(/pic/W02/ic-facebook-all.svg);
+        //     mask-repeat: no-repeat;
+        // }
+        // .fb-btn a:hover{
+        //     background-image: url(/pic/W02/ic-facebook-all.svg);
+        // }
+        // .google-btn a{
+        //     display: inline-block;
+        //     margin: 1px 0;
+        //     text-indent: -9999px;
+        //     width: 61px;
+        //     height: 20px;
+        //     transform: scale(1.5);
+        //     background-color: $grey;
+        //     mask-image: url(/pic/W02/ic-google-all.svg);
+        //     -webkit-mask-image: url(/pic/W02/ic-google-all.svg);
+        //     mask-repeat: no-repeat;
+        // }
+        // .google-btn a:hover{
+        //     background-image: url(/pic/W02/ic-google-all.svg);
+        // }
+        // .yahoo-btn a{
+        //     display: inline-block;
+        //     margin: 3.5px 0;
+        //     text-indent: -9999px;
+        //     width: 65px;
+        //     height: 15px;
+        //     transform: scale(1.5);
+        //     background-color: $grey;
+        //     mask-image: url(/pic/W02/ic-yahoo-all.svg);
+        //     -webkit-mask-image: url(/pic/W02/ic-yahoo-all.svg);
+        //     mask-repeat: no-repeat;
+        // }
+        // .yahoo-btn a:hover{
+        //     background-image: url(/pic/W02/ic-yahoo-all.svg);
+        // }
+    }
+    .material-icons{
+        color: $primaryGreen;
+    }
+}
+
+@media (max-width:992px) {
+    .login-block{
+        margin: 0;
+        .login,.linkid{
+            width: 100%;
+        }
+    }  
+}
+@media (max-width:767px) {
+    .login-block{
+        .login .login-title{
+            margin: 30px 0;
+        }
+        .login .m-link-btnbar{
+            display: flex;
+        }
+    }
+    .linkid{
+        display: none;
+    }  
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>寵物之家 - 購物車</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+TC">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="/scss/all.css">
+        <script src="/js/jquery-3.6.3.min.js"></script>
+        <script src="/js/all.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <div class="row navbar">
+            <div class="col-2 d-md-none m-hambar"><a href="#"><img src="/pic/dehaze-24px.png" alt="logo"></a></div>
+            <div class="col-0 col-md-5 d-none d-md-block logo"><a href="index.html"><img src="/pic/logo-all-dark.png" alt="logo"></a></div>
+            <div class="col-8 col-md-3 d-md-none m-logo"><a href="index.html"><img src="/pic/logotype-sm-dark.png"  height="220" alt="logo"></a></div>
+            <div class="col-2 col-md-8 navbar-r">
+                <ul>
+                    <li class="m-hide"><a href="index.html">首頁</a></li>
+                    <li class="m-hide"><a href="#">狗狗商品</a></li>
+                    <li class="m-hide"><a href="#">貓貓商品</a></li>
+                    <li class="m-hide"><a href="member.html">登入</a></li>
+                    <li><a href="cart.html"><img src="/pic/shopping_cart.png" alt="shopping_cart"><span>3</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-block container">
+        <div class="cartbar">
+            <div class="title">您的購物車</div>
+            <ul class="cart-products">
+                <li class="m-cart-product"><img class="product-pic" src="/pic/p-6.png" alt=""></li>
+                <li class="cart-product">
+                    <img class="product-pic" src="/pic/p-6.png" alt="">
+                    <div class="product-info">狗糧<br>NT$ 450</div>
+                    <div class="product-count">
+                        <ul class="countbar">
+                            <li><a href="#">-</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">+</a></li>
+                        </ul>
+                    </div>
+                    <div class="product-cost">NT$ 900</div>
+                    <a href="#"><span class="product-delete material-icons">delete</span></a>
+                </li>
+                <li class="m-cart-product"><img class="product-pic" src="/pic/p-5.png" alt=""></li>
+                <li class="cart-product">
+                    <img class="product-pic" src="/pic/p-5.png" alt="">
+                    <div class="product-info">狗糧<br>NT$ 450</div>
+                    <div class="product-count">                        
+                        <ul class="countbar">
+                            <li><a href="#">-</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">+</a></li>
+                        </ul>
+                    </div>
+                    <div class="product-cost">NT$ 900</div>
+                    <a href="#"><span class="product-delete material-icons">delete</span></a>
+                </li>
+                <li class="m-cart-product"><img class="product-pic" src="/pic/p-3.png" alt=""></li>
+                <li class="cart-product">
+                    <img class="product-pic" src="/pic/p-3.png" alt="">
+                    <div class="product-info">狗糧<br>NT$ 450</div>
+                    <div class="product-count">
+                        <ul class="countbar">
+                            <li><a href="#">-</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">+</a></li>
+                        </ul>
+                    </div>
+                    <div class="product-cost">NT$ 1350</div>
+                    <a href="#"><span class="product-delete material-icons">delete</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="costbar">
+            <div class="title">訂單摘要</div>
+            <div class="costbar-container">
+                <div class="subtotal">小計<span>NT$ 3,150</span></div>
+                <div class="delivery-fee">運費<span>NT$ 150</span></div>
+                <div class="costtotal">總計<span>NT$ 3,300</span></div>
+            </div>
+            <a class="checkout-btn" href="#">結帳</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-top">
+            <div class="subscribe">
+                <img class="subscribe-logo" src="/pic/logo-light.png" alt="">
+                <div class="subscribe-title">歡迎訂閱寵物之家！</div>
+            </div>
+            <div class="mailbar">
+                <img class="mailbar-icon" src="/pic/mail-24px.png" alt="">
+                <input class="mailbar-input" type="text" placeholder="請輸入信箱"></input>
+                <div><a class="mailbar-btn" href="#"><img src="/pic/arrow_forward-24px.png" alt=""></a></div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-l">
+                <img src="/pic/logotype-sm-dark.png" alt="">
+                <p>04-1234-0000<br>
+                    petfamily@email.com<br>
+                    404 台中市北區動物路1314號</p>
+            </div>
+            <div class="footer-b">
+                <ul class="footer-link">
+                    <li><a href="#"><img src="/pic/ic-line@.png" alt="line@"></a></li>
+                    <li><a href="#"><img src="/pic/ic-facebook.png" alt="facebook"></a></li>
+                </ul>
+                <p>© 2022 Petfamily All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+     AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: true, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
+</body>
+</html>
