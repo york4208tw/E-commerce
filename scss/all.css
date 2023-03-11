@@ -50,8 +50,13 @@ body ::-moz-placeholder { /* Firefox 19+ */
 .navbar .m-logo img {
   height: 50px;
 }
-.navbar .m-hambar img {
-  width: 24px;
+.navbar .hambtn {
+  color: #dc8605;
+  font-size: 2rem;
+}
+.navbar span {
+  font-weight: bold;
+  color: #dc8605;
 }
 
 .navbar-r {
@@ -215,11 +220,16 @@ body ::-moz-placeholder { /* Firefox 19+ */
   .navbar .m-logo {
     display: block;
   }
-  .navbar .m-hambar {
-    display: block;
+  .navbar .navbar-r {
+    margin-top: 16px;
+    display: none;
   }
   .navbar .navbar-r ul {
-    justify-content: end;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .navbar .nav-toggle {
+    display: flex;
   }
   .footer-top {
     padding: 15px 0;

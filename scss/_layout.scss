@@ -41,9 +41,17 @@ body{
     .m-logo img{
         height: 50px ;
     }
-    .m-hambar img{
-        width: 24px;
+    .hambtn{
+        color: $primaryGreen;
+        font-size: $font-xl;
     }
+    span{
+        font-weight: bold;
+        color: $primaryGreen;
+    }
+    // .m-hambar img{
+    //     width: 24px;
+    // }
 }
 .navbar-r {
     display: flex;
@@ -61,6 +69,7 @@ body{
         color: $primaryGreen;
         text-decoration: none;
     }
+
 }
 .footer-top{
     display: flex;
@@ -193,6 +202,7 @@ body{
             margin: 15px 30px;
         }
     }
+    
     // .footer-bottom .footer-l {
     //     width: 70%;
     // }
@@ -210,11 +220,20 @@ body{
         .m-logo{
             display: block;
         }
-        .m-hambar{
-            display: block;
+        
+        // .m-hambar{
+        //     display: block;
+        // }
+        .navbar-r{
+            margin-top: 16px;
+            display: none;
+            ul{
+                width: 100%;
+                justify-content: space-between;
+            }
         }
-        .navbar-r ul{
-            justify-content: end;
+        .nav-toggle{
+            display: flex;
         }
 
     }

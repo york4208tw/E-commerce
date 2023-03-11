@@ -39,6 +39,11 @@ $(document).ready(function(){
         $( this ).toggleClass('title-select');
     });
 
+    //hambtn
+    $('.hambtn').click(function (e) { 
+        $( this ).toggleClass('bx-x');
+        $( '.navbar-r' ).toggleClass('nav-toggle animate__animated animate__fadeIn');
+    });
 
 });
 
