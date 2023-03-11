@@ -351,6 +351,7 @@ body ::-moz-placeholder { /* Firefox 19+ */
 .slide-bar ul {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 0;
 }
 .slide-bar li {
   width: 100%;
@@ -371,6 +372,21 @@ body ::-moz-placeholder { /* Firefox 19+ */
 .slide-bar .title {
   color: #ffe8c5;
   background-color: #dc8605;
+}
+.slide-bar .m-slide-title {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #ffe8c5;
+  padding: 16px 16px 0 16px;
+  border: 1px solid #ffe8c5;
+  background-color: #dc8605;
+  writing-mode: vertical-rl;
+  letter-spacing: 0.5em;
 }
 
 .title-select {
@@ -416,6 +432,15 @@ body ::-moz-placeholder { /* Firefox 19+ */
   }
 }
 @media (max-width: 992px) {
+  .slide-bar li {
+    width: 50%;
+  }
+  .slide-bar li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
   .products {
     flex-wrap: wrap;
   }

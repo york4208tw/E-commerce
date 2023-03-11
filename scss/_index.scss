@@ -82,7 +82,7 @@
     ul{
         display: flex;
         flex-wrap: wrap;
-
+        margin-bottom: 0;
     }
     li{
         width: 100%;
@@ -103,6 +103,21 @@
     .title{
         color: $lightGreen;
         background-color: $primaryGreen;
+    }
+    .m-slide-title{
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: $font-l;
+        line-height: $font-xl;
+        color: $lightGreen;
+        padding: 16px 16px 0 16px;
+        border: 1px solid $lightGreen;
+        background-color: $primaryGreen;
+        writing-mode: vertical-rl;
+        letter-spacing: 0.5em; // 設置字元之間的距離為0.5em 
     }
 
 }
@@ -151,6 +166,15 @@
     }
 }
 @media(max-width: 992px) {
+    .slide-bar li{
+        width: 50%;
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+    }
     .products{
         flex-wrap: wrap;
         .product-wrap ul{
