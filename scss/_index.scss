@@ -20,9 +20,9 @@
         top: 10px;
         width: 130px;
         padding: 10px;
-        background-color: $primaryGreen;
+        background-color: $primaryOrange;
         border-radius: 0 50px 50px 0;
-        color: $lightGreen;
+        color: $lightOrange;
         font-weight: bold;
         text-align: center;
         line-height: $font-m;
@@ -46,36 +46,36 @@
             padding: 14px 0;
 
             text-align: center;
-            border: 1px solid $lightGreen;
+            border: 1px solid $lightOrange;
             a{
                 display: block;
-                color: $primaryGreen;
+                color: $primaryOrange;
                 text-decoration: none;
             }
         }
         .product-cost{
             width: 42%;
             padding: 14px 0;
-            color: $primaryGreen;
+            color: $primaryOrange;
             text-align: center;
-            border: 1px solid $lightGreen;
+            border: 1px solid $lightOrange;
         }
     }
     .product-btn{
         display: block;
         padding: 16px 0;
-        color: $primaryGreen;
+        color: $primaryOrange;
         font-size: $font-l;
         font-weight: bold;
-        background-color: $lightGreen;
+        background-color: $lightOrange;
         text-align: center;
         text-decoration: none;
-        border: 1px solid $lightGreen;
+        border: 1px solid $lightOrange;
         margin-bottom: 20px;
     }
     .product-btn:hover{
-        color: $lightGreen;
-        background-color: $darkGreen;
+        color: $lightOrange;
+        background-color: $darkOrange;
     }
 }
 .slide-bar{
@@ -95,14 +95,14 @@
         font-size: $font-l;
         line-height: $font-xl;
         text-align: center;
-        color: $primaryGreen;
+        color: $primaryOrange;
         text-decoration: none;
         padding: 16px 0;
-        border: 1px solid $lightGreen;
+        border: 1px solid $lighOrange;
     }
     .title{
-        color: $lightGreen;
-        background-color: $primaryGreen;
+        color: $lightOrange;
+        background-color: $primaryOrange;
     }
     .m-slide-title{
         display: flex;
@@ -112,17 +112,17 @@
         font-weight: bold;
         font-size: $font-l;
         line-height: $font-xl;
-        color: $lightGreen;
+        color: $lightOrange;
         padding: 16px 16px 0 16px;
-        border: 1px solid $lightGreen;
-        background-color: $primaryGreen;
+        border: 1px solid $lightOrange;
+        background-color: $primaryOrange;
         writing-mode: vertical-rl;
         letter-spacing: 0.5em; // 設置字元之間的距離為0.5em 
     }
 
 }
 .title-select{
-    background-color: $lightGreen;
+    background-color: $lightOrange;
 }
 .page-btns{
     margin-bottom: 60px;
@@ -134,13 +134,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid $lightGreen;
+        border: 1px solid $lightOrange;
     }
     li a{
         display: block;
         width: 58px;
         padding: 15.5px 0;
-        color: $primaryGreen;
+        color: $primaryOrange;
         font-size: $font-m;
         font-weight: bold;
         text-align: center;
@@ -150,9 +150,9 @@
         margin: auto;
     }
     .page-btn-select{
-        background-color: $primaryGreen ;
+        background-color: $primaryOrange ;
         a{
-            color: $lightGreen;
+            color: $lightOrange;
         }
     }
 }

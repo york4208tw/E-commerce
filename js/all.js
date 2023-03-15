@@ -45,5 +45,12 @@ $(document).ready(function(){
         $( '.navbar-r' ).toggleClass('nav-toggle animate__animated animate__fadeIn');
     });
 
+    //light&dark
+    $('.darkbtn').click(function (e) {
+        $( this ).toggleClass('bx-sun');
+        $( 'body' ).toggleClass('dark_mode');
+    });
+
+
 });
 

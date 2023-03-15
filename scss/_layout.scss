@@ -31,7 +31,7 @@ body{
 }
 .navbar {
     padding: 20px 0;
-    /*background: $lightGreen;*/
+    /*background: $lightOrange;*/
     .logo{
         width: 220px;
     }
@@ -42,12 +42,12 @@ body{
         height: 50px ;
     }
     .hambtn{
-        color: $primaryGreen;
+        color: $primaryOrange;
         font-size: $font-xl;
     }
     span{
         font-weight: bold;
-        color: $primaryGreen;
+        color: $primaryOrange;
     }
     // .m-hambar img{
     //     width: 24px;
@@ -66,7 +66,7 @@ body{
     }
     li a{
         font-weight: bold;
-        color: $primaryGreen;
+        color: $primaryOrange;
         text-decoration: none;
     }
 
@@ -75,7 +75,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 30px 122px;
-    background-color: $primaryGreen;
+    background-color: $primaryOrange;
     .subscribe{
         display: flex;
         align-items: center;
@@ -86,7 +86,7 @@ body{
         margin-right: 20px;
     }
     .subscribe-title{
-        color: $lightGreen;
+        color: $lightOrange;
         font-size: $font-l;
         font-weight: bold;
     }
@@ -95,7 +95,7 @@ body{
         justify-content: space-between;
         align-items: center;
         height: 56px;
-        background-color: $lightGreen;
+        background-color: $lightOrange;
     }
     .mailbar-icon{
         padding: 16px 20px;
@@ -105,10 +105,10 @@ body{
         height: 24px;
         margin-right: 15px;
         border: 0;
-        color: $primaryGreen;
+        color: $primaryOrange;
         font-size: $font-m;
         font-weight: bold;
-        background-color: $lightGreen;
+        background-color: $lightOrange;
         outline: none;
     }
     .mailbar-btn{
@@ -123,10 +123,10 @@ body{
     flex-wrap: wrap;
     // justify-content: space-between;
     padding: 0 122px;
-    background-color: $lightGreen;
+    background-color: $lightOrange;
     .footer-l{
         width: 100%;
-        color: $primaryGreen;
+        color: $primaryOrange;
         font-size: $font-s;
         line-height: 1.5;
         margin-bottom: 30px;
@@ -150,7 +150,7 @@ body{
     .vertical-mode{
         width: 39px;
         direction:rtl;
-        color: $primaryGreen;
+        color: $primaryOrange;
         font-family: 'Noto Serif TC';
         font-size: $font-l;
         line-height: 26px;
@@ -173,11 +173,17 @@ body{
             display: block;
         }
         p {
-            color: $primaryGreen;
+            color: $primaryOrange;
             font-family: 'Times';
             font-size: $font-s;
         }
     }
+}
+.darkbtn{
+    color: $primaryOrange;
+}
+.dark_mode {
+    background: #000;
 }
 @media (max-width: 992px) {
     .navbar{
