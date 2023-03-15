@@ -21,6 +21,7 @@ body{
         color: $grey;
         opacity: 1;
     }
+    transition: all .5s ease;
 }
 // .container {
 //     max-width: 940px;
@@ -180,10 +181,10 @@ body{
     }
 }
 .darkbtn{
-    color: $primaryOrange;
+    color: $primaryOrange !important;
 }
 .dark_mode {
-    background: #000;
+    background: $dark !important;
 }
 @media (max-width: 992px) {
     .navbar{

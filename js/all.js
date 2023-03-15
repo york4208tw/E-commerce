@@ -48,7 +48,8 @@ $(document).ready(function(){
     //light&dark
     $('.darkbtn').click(function (e) {
         $( this ).toggleClass('bx-sun');
-        $( 'body' ).toggleClass('dark_mode');
+        $( 'body, .footer-bottom, .product-btn' ).toggleClass('dark_mode');
+        $( '.costbar, .costbar-container' ).toggleClass('grey_mode');
     });
 
 

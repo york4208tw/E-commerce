@@ -14,8 +14,8 @@ a{
         margin-bottom: 10px;
         font-size: $font-l;
         font-weight: bold;
-        color: $primaryGreen;
-        background-color: $lightGreen;
+        color: $primaryOrange;
+        background-color: $lightOrange;
         text-align: center;
     }
     .m-cart-product{
@@ -26,13 +26,13 @@ a{
         justify-content: space-between;
         align-items: center;
         padding: 20px 0;
-        border-bottom: 1px $lightGreen solid;
+        border-bottom: 1px $lightOrange solid;
         .product-pic{
             width: 110px;
         }
         .product-info{
             width: 160px;
-            color: $primaryGreen;
+            color: $primaryOrange;
             font-size: $font-m;
             line-height: 1.5;
         }
@@ -41,13 +41,13 @@ a{
         }
         .product-cost{
             width: 100px;
-            color: $primaryGreen;
+            color: $primaryOrange;
             font-size: $font-m;
             font-weight: bold;
             text-align: center;
         }
         .product-delete{
-            color: $primaryGreen;
+            color: $primaryOrange;
         }
         .countbar{
             display: flex;
@@ -58,15 +58,15 @@ a{
             height: 48px;
             justify-content: center;
             align-items: center;
-            border: 1px $lightGreen solid;
+            border: 1px $lightOrange solid;
         }
         .countbar li:hover{
-            background-color: $primaryGreen;
+            background-color: $primaryOrange;
         }
         .countbar li a{
             width: 100%;
             height: 100%;
-            color: $primaryGreen;
+            color: $primaryOrange;
             font-size: $font-m;
             display: flex;
             align-items: center;
@@ -79,24 +79,24 @@ a{
 }
 .costbar{
     width: 32%;
-    background-color: $primaryGreen;
+    background-color: $primaryOrange;
     .title{
         padding: 16px 0;
         font-size: $font-l;
         font-weight: bold;
-        color: $lightGreen;
-        // background-color: $primaryGreen;
+        color: $lightOrange;
+        // background-color: $primaryOrange;
         text-align: center;
     }
     .costbar-container{
         padding: 16px 18px;
-        border-top: 1px $lightGreen solid;
+        border-top: 1px $lightOrange solid;
     }
     .subtotal,.delivery-fee{
         display: flex;
         justify-content: space-between;
         margin-bottom: 8px;
-        color: $lightGreen;
+        color: $lightOrange;
     }
     .costtotal{
         display: flex;
@@ -104,14 +104,14 @@ a{
         margin-top: 16px;
         font-size: $font-m;
         font-weight: bold;
-        color: $lightGreen;
+        color: $lightOrange;
     }
     .checkout-btn{
         text-align: center;
         padding: 16px 0;
         font-size: $font-l;
         font-weight: bold;
-        color: $lightGreen;
+        color: $lightOrange;
         background-color: $secondary;
     }
 }
@@ -168,15 +168,15 @@ a{
         background-color: $white;
         .title{
             margin: 0 30px;
-            background-color: $lightGreen;
-            color: $primaryGreen;
+            background-color: $lightOrange;
+            color: $primaryOrange;
         }
         .costbar-container{
             padding: 16px 30px;
             border: 0px ;
         }
         .subtotal,.delivery-fee,.costtotal{
-            color: $primaryGreen;
+            color: $primaryOrange;
         }
     }
 }
@@ -237,5 +237,13 @@ a{
         .product-cost{
             margin-top: 10px;
         }
+    }
+}
+.grey_mode{
+    background: $grey !important;
+    color:  $darkOrange !important;
+    .subtotal, .delivery-fee, .costtotal{
+        background: $grey !important;
+        color:  $darkOrange !important;
     }
 }

@@ -15,10 +15,12 @@ ul {
   padding-left: 0;
 }
 
+body {
+  transition: all 0.5s ease;
+}
 body ::-moz-placeholder { /* CSS 3 標準 */
   color: #b6ad9d;
 }
-
 body ::placeholder { /* CSS 3 標準 */
   color: #b6ad9d;
 }
@@ -39,7 +41,7 @@ body ::-moz-placeholder { /* Firefox 19+ */
 
 .navbar {
   padding: 20px 0;
-  /*background: $lightGreen;*/
+  /*background: $lightOrange;*/
 }
 .navbar .logo {
   width: 220px;
@@ -183,6 +185,14 @@ body ::-moz-placeholder { /* Firefox 19+ */
   color: #dc8605;
   font-family: "Times";
   font-size: 1rem;
+}
+
+.darkbtn {
+  color: #dc8605 !important;
+}
+
+.dark_mode {
+  background: rgb(48, 48, 48) !important;
 }
 
 @media (max-width: 992px) {
@@ -915,6 +925,15 @@ a {
     margin-top: 10px;
   }
 }
+.grey_mode {
+  background: #b6ad9d !important;
+  color: #734808 !important;
+}
+.grey_mode .subtotal, .grey_mode .delivery-fee, .grey_mode .costtotal {
+  background: #b6ad9d !important;
+  color: #734808 !important;
+}
+
 /*
 @import "checkout";
 *//*# sourceMappingURL=all.css.map */
